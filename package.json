@@ -1,0 +1,29 @@
+{
+  "name": "graphql-butler",
+  "version": "1.0.0",
+  "description": "Cliente GraphQL desenvolvido em NodeJS para facilitar o desenvolvimento de projetos JavaScript que usam GraphQL como API. A declaração de tipo TypeScript está dentro do pacote para projetos em TypeScript",
+  "main": "./build/index.js",
+  "scripts": {
+    "dev": "tsc --build tsconfig.json -w"
+  },
+  "types": "./build/*.d.ts",
+  "keywords": [
+    "graphql",
+    "api",
+    "ql",
+    "api",
+    "graphql-client",
+    "client",
+    "microservice"
+  ],
+  "author": "Daniel Pereira",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^13.11.1",
+    "typescript": "^3.8.3"
+  }
+}
