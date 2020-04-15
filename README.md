@@ -1,4 +1,4 @@
-# graphql-butler
+# GraphQL Butler
 > Cliente __GraphQL__ desenvolvido em NodeJS para facilitar o desenvolvimento de projetos JavaScript que usam __GraphQL__ como API. A declaração de tipo __TypeScript__ está dentro do pacote para projetos em __TypeScript__.
 
 ## Instalação:
