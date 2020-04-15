@@ -127,7 +127,7 @@ const payload = `
 	}
 `
 
-GraphQL.send(query).then((data) => {
+GraphQL.send(payload).then((data) => {
 	console.log(data);
 }).catch((err) => {
 	console.log(err);
@@ -155,7 +155,7 @@ const payload = `
 	}
 `
 
-GraphQL.send(query).then((data) => {
+GraphQL.send(payload).then((data) => {
 	console.log(data);
 }).catch((err) => {
 	console.log(err);
@@ -188,7 +188,7 @@ const payload = `
 	}
 `
 
-GraphQL.send(query).then((data) => {
+GraphQL.send(payload).then((data) => {
 	console.log(data);
 }).catch((err) => {
 	console.log(err);
@@ -221,7 +221,7 @@ const payload = `
 	}
 `
 
-GraphQL.send(query).then((data) => {
+GraphQL.send(payload).then((data) => {
 	console.log(data);
 }).catch((err) => {
 	console.log(err);
