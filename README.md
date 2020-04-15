@@ -25,7 +25,7 @@ Antes de começar a usar a ferramenta no seu projeto, veja quais são os princip
 |---------------------|-----------------------------------------------------------|
 | Query               | Responsável por realizar consultas de dados na API.       |
 | Mutation            | Envia requisições capazes criar, editar e excluir dados.  |
-| Subscription        | Consulta de dados real-time                               |
+| Subscription        | Consulta de dados real-time.                              |
 
 Todas as requisições realizadas na ferramenta são obrigatóriamente do tipo __POST__ para atender um dos requisitos básicos do GraphQL. Mas você não precisa se preocupar com métodos, requisição e resposta, pois a ferramenta cuidará de toda a parte burocrática para você.
 
