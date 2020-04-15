@@ -57,7 +57,7 @@ const api = "http://0.0.0.0:3000/graphql";
 
 ```
 
-### Headers (opctional)
+### Headers (opcional)
 
 Caso necessário, você também poderá instanciar os __headers__ de sua preferência que será enviado dentro do corpo da requisição GraphQL, um exemplo:
 
