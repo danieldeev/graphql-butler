@@ -2,7 +2,7 @@ import Query from "./query";
 import Mutation from "./mutation";
 import Subscribe from "./subscribe";
 
-export default{
+export {
 	Query,
 	Mutation, 
 	Subscribe

@@ -1,16 +1,18 @@
 {
   "name": "graphql-butler",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Cliente GraphQL desenvolvido em NodeJS para facilitar o desenvolvimento de projetos JavaScript que usam GraphQL como API. A declaração de tipo TypeScript está dentro do pacote para projetos em TypeScript",
   "main": "./build/index.js",
   "scripts": {
     "dev": "tsc --build tsconfig.json -w"
   },
-  "types": "./build/*.d.ts",
+  "types": "./build/index.d.ts",
   "keywords": [
     "graphql",
     "api",
     "ql",
+    "react",
+    "react-native",
     "api",
     "graphql-client",
     "client",

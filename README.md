@@ -35,7 +35,7 @@ __JavaScript:__
 
 ```js
 
-const { Query, Mutation, Subscription } = require('graphql-butler').default;
+const { Query, Mutation, Subscription } = require('graphql-butler');
 
 ```
 
@@ -111,7 +111,8 @@ Examplo prático de consulta de livro usando o método __Query__:
 
 ```js
 
-const { Query } = require('graphql-butler').default;
+import { Query } from "graphql-butler";
+// const { Query } = require('graphql-butler');
 
 const api = "http://0.0.0.0:3000/graphql";
 const headers = {
@@ -139,7 +140,8 @@ Em outro modelo, consultaremos dados passando uma __id__ para identificar o livr
 
 ```js
 
-const { Query } = require('graphql-butler').default;
+import { Query } from "graphql-butler";
+// const { Query } = require('graphql-butler');
 
 const api = "http://0.0.0.0:3000/graphql";
 const headers = {
@@ -169,7 +171,8 @@ Agora vamos criar adicionar um livro enviando uma requisição que retornará o 
 
 ```js
 
-const { Mutation } = require('graphql-butler').default;
+import { Mutation } from "graphql-butler";
+// const { Mutation } = require('graphql-butler');
 
 const api = "http://0.0.0.0:3000/graphql";
 const headers = {
@@ -182,7 +185,6 @@ const payload = `
 	book(
 		title: "Teste",
 		author: "Desconhecido"
-
 	){
 		id
 	}
@@ -202,7 +204,8 @@ Abrindo conexão real-time com subscription passando um __id__:
 
 ```js
 
-const { Subscription } = require('graphql-butler').default;
+import { Subscription } from "graphql-butler";
+// const { Subscription } = require('graphql-butler');
 
 const api = "http://0.0.0.0:3000/graphql";
 const headers = {
@@ -215,7 +218,6 @@ const payload = `
 	book(
 		title: "Teste",
 		author: "Desconhecido"
-
 	){
 		id
 	}
